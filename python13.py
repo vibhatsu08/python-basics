@@ -16,9 +16,3 @@ if number == sum:
     print("given number is an armstrong number")
 else:
     print("given number is not an armstrong number")
-
-
-while temp > 0:
-   digit = temp % 10
-   sum += digit ** order
-   temp //= 10
