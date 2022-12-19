@@ -1,4 +1,4 @@
-# Python program to print the HCF or the GCD of two numbers
+# Python program to print the HCF or the GCD of two numbers.
 def printGCD (num1, num2) :
     if num1 > num2 :
         num1, num2 = num2, num1
