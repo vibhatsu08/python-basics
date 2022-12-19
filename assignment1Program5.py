@@ -1,4 +1,4 @@
-# Write a python program to create dictionary using elements of two lists.\
+# Write a python program to create dictionary using elements of two lists.
 # list of keys
 list_keys = ["apple", "banana", "oranges"]
 # list of values
