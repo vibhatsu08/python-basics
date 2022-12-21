@@ -1,4 +1,4 @@
-# Python program to find numbers divisible by another number
+# Python program to find numbers divisible by another number.
 def checkDivisiblity (numbers, number) :
     for num in numbers :
         if num%number == 0 :
