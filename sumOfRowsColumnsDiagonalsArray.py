@@ -8,8 +8,8 @@ def calculateSum (arr) :
         for j in range (0, columns) :
             rowSum += arr[i][j]
             
-    for i in range (0, columns) :
-        for j in range (0, rows) :
+    for i in range (0, rows) :
+        for j in range (0, columns) :
             colSum += arr[i][j]
             
     for i in range (0, len(arr)) :
@@ -18,7 +18,7 @@ def calculateSum (arr) :
         
     return rowSum, colSum, firstDiag, secondDiag
 print(calculateSum(arr=[    
-        [1, 2, 3],  
+        [2, 2, 3],  
         [4, 5, 6],  
         [7, 8, 9]  
     ]))
